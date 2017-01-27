@@ -9,6 +9,8 @@
 [SBT]: http://scala-sbt.org
 [SLF4J]: https://www.slf4j.org/
 [Typesafe Scala Logging]: https://github.com/typesafehub/scalalogging
+[knobs]: http://verizon.github.io/knobs/
+[Typesafe Config]: https://typesafehub.github.io/config/
 [list the hooks]: https://developer.github.com/v3/repos/hooks/#list-hooks
 [edit the hook]: https://developer.github.com/v3/repos/hooks/#edit-a-hook
 
@@ -36,6 +38,8 @@ run the JAR in their *serverless* Java 8 runtime.
 - JAR produced using the SBT plugin, [SBT Assembly], by Eugene Yokota.
 - JVM file system housekeeping provided by the sbt.io Scala library,
 from [SBT] team at Lightbend, Inc.
+- Configuration file support managed by [knobs] from Verizon and
+[Typesafe Config] from Lightbend, Inc.
 - Logging provided by [SLF4J] of QoS.ch and Typesafe Scala Logging by
 Lightbend, Inc.
 
